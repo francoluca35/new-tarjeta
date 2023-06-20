@@ -76,6 +76,12 @@ formulario.inputNumero.addEventListener('keyup', (e) => {
 		const imagen = document.createElement('img');
 		imagen.src = 'img/logos/mastercard.png';
 		logoMarca.appendChild(imagen);
+
+	} else if(valorInput[0] == 3){
+       		logoMarca.innerHTML = '';
+        	const imagen = document.createElement('img');
+        	imagen.src = 'img/logos/america.png';
+        	logoMarca.appendChild(imagen);
 	}
 
 	// Volteamos la tarjeta para que el usuario vea el frente.
